@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "AtHand",
+    "description": "An iCopy-style clipboard history and quick-phrase panel. The AtHand native app owns system clipboard capture and local SQLite; DSH reads it through a local API. Includes a sidebar page, one-click composer insertion, a configurable summon shortcut, and cross-app text capture."
+  }
+}

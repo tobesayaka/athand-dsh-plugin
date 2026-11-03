@@ -1,0 +1,49 @@
+{
+  "name": "dsh-plugin-athand",
+  "version": "1.0.0",
+  "description": "Clipboard history and quick phrases for the DSH Web UI, backed by the AtHand native app.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobesayaka/athand-dsh-plugin.git"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "clipboard",
+    "clipboard-history",
+    "macos"
+  ],
+  "exports": {
+    ".": "./dsh-plugin/index.js",
+    "./client": "./dsh-plugin/client.js",
+    "./locale/*.json": "./dsh-plugin/locale/*.json",
+    "./icon": "./dsh-plugin/icon.svg"
+  },
+  "files": [
+    "dsh-plugin",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./dsh-plugin/cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "node --test dsh-plugin/test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.5.0",
+    "dsh": ">=0.2.1"
+  }
+}
