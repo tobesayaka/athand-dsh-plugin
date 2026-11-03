@@ -1,7 +1,7 @@
 {
   "name": "dsh-plugin-athand",
   "version": "1.0.0",
-  "description": "Clipboard history and quick phrases for the DSH Web UI, backed by the AtHand native app.",
+  "description": "Clipboard history and quick phrases for the DSH Web UI, backed by the AtHand native app. Every spark finds its home.",
   "type": "module",
   "license": "MIT",
   "repository": {

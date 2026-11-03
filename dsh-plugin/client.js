@@ -67,7 +67,7 @@ window.__ModuleLoader__.load({
     const zh = {
       panel: '剪贴板',
       'page.title': '剪贴板与快捷短语',
-      'page.subtitle': '仿 iCopy：历史、收藏、快捷短语与快速呼出；数据保存在本机 SQLite，可选跨应用文本监听。',
+      'page.subtitle': '灵感皆有归处：历史、收藏、快捷短语与快速呼出；数据保存在本机 SQLite，可选跨应用文本监听。',
       'tab.clipboard': '剪贴板',
       'tab.snippets': '快捷短语',
       'clipboard.search': '搜索剪贴板历史',
@@ -196,7 +196,7 @@ window.__ModuleLoader__.load({
     const en = {
       panel: 'Clipboard',
       'page.title': 'Clipboard and quick phrases',
-      'page.subtitle': 'iCopy-style history, pins, quick phrases and a summon panel. Data stays in local SQLite; optional cross-app text capture.',
+      'page.subtitle': 'Every spark finds its home — history, pins, quick phrases and a summon panel. Data stays in local SQLite; optional cross-app text capture.',
       'tab.clipboard': 'Clipboard',
       'tab.snippets': 'Quick phrases',
       'clipboard.search': 'Search clipboard history',
